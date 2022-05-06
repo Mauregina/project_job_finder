@@ -19,3 +19,8 @@ npm install
 ```sh
 npm install -D nodemon
 ```
+
+Run the project through the command:
+```sh
+npm run dev
+```
