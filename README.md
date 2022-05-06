@@ -16,3 +16,6 @@ Esse comando irá instalar todos pacotes que constam como dependência no arquiv
 ```sh
 npm install
 ```
+```sh
+npm install -D nodemon
+```
