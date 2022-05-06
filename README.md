@@ -1,5 +1,5 @@
 # Job Finder
-
+Project created in order to pratice knowledges acquired during the JavaScript course.
 
 ## Tools
 * Visual Studio SCode
