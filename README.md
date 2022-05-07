@@ -11,8 +11,7 @@ sudo apt install nodejs
 ```sh
 sudo apt install npm
 ```
-
-Esse comando irá instalar todos pacotes que constam como dependência no arquivo package.json (express, express-handlebars, body-parser, sequelize, sqlite3):
+The command bellow will install all the packages that are depedencies in the file ackage.json (express, express-handlebars, body-parser, sequelize, sqlite3):
 ```sh
 npm install
 ```
