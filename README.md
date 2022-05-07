@@ -4,6 +4,10 @@ Project created in order to pratice knowledges acquired during the JavaScript co
 ## Tools
 * Visual Studio SCode
 * Postman
+* DB Browser
+```sh
+sudo apt-get install sqlitebrowser
+```
 
 ```sh
 sudo apt install nodejs
@@ -11,7 +15,7 @@ sudo apt install nodejs
 ```sh
 sudo apt install npm
 ```
-The command bellow will install all the packages that are depedencies in the file ackage.json (express, express-handlebars, body-parser, sequelize, sqlite3):
+The command bellow will install all the packages that are depedencies in the file package.json (express, express-handlebars, body-parser, sequelize, sqlite3):
 ```sh
 npm install
 ```
