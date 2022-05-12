@@ -3,12 +3,10 @@ Project created in order to pratice knowledges acquired during the JavaScript co
 
 ## Tools
 * Visual Studio SCode
-* Postman
-* DB Browser
+
 ```sh
 sudo apt-get install sqlitebrowser
 ```
-
 ```sh
 sudo apt install nodejs
 ```
@@ -19,6 +17,7 @@ The command bellow will install all the packages that are depedencies in the fil
 ```sh
 npm install
 ```
+Also install Nodemon in order to help to automatically restart the node application when file changes in the directory are detected
 ```sh
 npm install -D nodemon
 ```
