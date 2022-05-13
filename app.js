@@ -39,8 +39,6 @@ app.get('/', (req, res) => {
 
     let search = req.query.job //parameter received from frontend where job is the name of the input    
     let query = '%' + search + '%'
-    console.log('search', query)
-
 
     if (search) {
         Job.findAll({
@@ -58,9 +56,11 @@ app.get('/', (req, res) => {
         })
         .catch(err => console.log(err))  
     } else {
-        Job.findAll({order: [
-            ['description']
-        ]})
+        Job.findAll({
+            order: [
+                [Sequelize.literal('createdAt, description')]
+            ]
+        })
         .then(jobs => {
             res.render('index', {jobs})
         })
