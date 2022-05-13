@@ -1,5 +1,5 @@
 # Job Finder
-Project created in order to pratice knowledges acquired during the JavaScript course.
+A simple job portal where people are able to seek for a job and open new vacancies. 
 
 ## Tools
 * Visual Studio SCode
